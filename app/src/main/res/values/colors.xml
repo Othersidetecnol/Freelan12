@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <!--/ adaskd-->
+
+    <color name="primaria">#BCA6A6</color>
+    <color name="variacao_primaria">#A1A1A1</color>
+    <color name="secundaria">#C9D1B7</color>
+    <color name="variacao_secundaria">#818871</color>
+    <color name="tercearia">#363E25</color>
+    <color name="variacao_tercearia">#363E25</color>
+
+    <color name="cor_na_primaria">#000000</color>
+    <color name="cor_na_secundaria">#363E25</color>
+    <color name="cor_na_tercearia">#B38A8A</color>
+    <color name="fundo">#FFFFFF</color>
+
+</resources>

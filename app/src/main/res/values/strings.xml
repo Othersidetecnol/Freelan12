@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Freelan1</string>
+    <string name="digite_seu_e_mail">Digite seu E-mail</string>
+    <string name="textview">TextView</string>
+    <string name="digite_sua_senha" />
+    <string name="dicas_e_informa_es">Dicas e Informações</string>
+</resources>

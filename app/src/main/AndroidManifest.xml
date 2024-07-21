@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Freelan1">
+        <activity
+            android:name=".AgendaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.CarteiraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.EntradaCarteiraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerfilClienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TesteDicas"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityLogin"
+            android:exported="true"> <!-- Declaração da atividade principal MainActivity -->
+            <intent-filter> <!-- Filtro de intent para definir como a atividade principal -->
+                <action android:name="android.intent.action.MAIN" /> <!-- Define esta atividade como a principal ação -->
+                <category android:name="android.intent.category.LAUNCHER" /> <!-- Define a categoria como launcher (inicial) -->
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

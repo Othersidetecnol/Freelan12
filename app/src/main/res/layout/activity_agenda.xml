@@ -1,0 +1,53 @@
+     <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.CarteiraActivity">
+
+    <ScrollView
+        android:padding="30dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <!-- Cabeçalho com Mês e Ano -->
+            <TextView
+                android:id="@+id/tvMonthYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abril 2024"
+                android:textSize="24sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"/>
+
+            <!-- GridView para o Calendário -->
+            <GridView
+                android:id="@+id/calendarGridView"
+                android:layout_width="288dp"
+                android:layout_height="286dp"
+                android:layout_below="@id/tvMonthYear"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:numColumns="7"
+                android:padding="8dp" />
+
+            <!-- Lista de Agendamentos -->
+            <ListView
+                android:id="@+id/appointmentsListView"
+                android:layout_width="match_parent"
+                android:layout_height="710dp"
+                android:layout_below="@id/calendarGridView"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="16dp" />
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
