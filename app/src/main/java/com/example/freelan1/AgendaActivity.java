@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.widget.GridView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.*;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -20,7 +21,6 @@ public class AgendaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_agenda);
-
         tvMonthYear = findViewById(R.id.tvMonthYear);
         calendarGridView = findViewById(R.id.calendarGridView);
         appointmentsListView = findViewById(R.id.appointmentsListView);

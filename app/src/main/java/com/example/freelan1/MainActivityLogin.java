@@ -7,6 +7,8 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.freelan12.R;
+
 public class MainActivityLogin extends AppCompatActivity {
 
     Button buttonAbrir;
@@ -17,7 +19,7 @@ public class MainActivityLogin extends AppCompatActivity {
         setContentView(R.layout.activity_main_login);
 
 
-        buttonAbrir = findViewById(R.id.btn_esqueceu_senha);
+        buttonAbrir = findViewById(R.id.btn_logar);
         buttonAbrir.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){

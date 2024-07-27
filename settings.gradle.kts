@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Freelan1"
 include(":app")
- 
+include(":freelan12ktl")

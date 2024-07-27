@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Freelan1">
         <activity
+            android:name=".CadastroProfissionalActivity"
+            android:exported="false" />
+        <activity
             android:name=".AgendaActivity"
             android:exported="false" />
         <activity

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1014994723434",
+    "project_id": "freelan12-9fd5b",
+    "storage_bucket": "freelan12-9fd5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014994723434:android:22f3966687b08978bae013",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY4iRlwDh2G6rxvJkgawYEF0zPvhnbSSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014994723434:android:62a1494ad8b233f1bae013",
+        "android_client_info": {
+          "package_name": "com.otherside.appfreelan12"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY4iRlwDh2G6rxvJkgawYEF0zPvhnbSSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
